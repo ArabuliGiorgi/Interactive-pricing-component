@@ -87,6 +87,14 @@ main{
 #main-input::-webkit-slider-thumb:active{
     background-color: #24AEA1;
 }
+input[type="range"] {
+    outline: none;
+}
+input[type="range"]:focus,
+input[type="range"]:active {
+    outline: none;
+    box-shadow: none; 
+}
 .price-div{
     display: flex;
     gap: 10px;
